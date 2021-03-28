@@ -27,7 +27,7 @@ public class MediaAlunosDinamica {
             System.out.println("nenhuma nota foi inserida!");
         }else {
         mediaNota = totalNota / totalAluno;
-        System.out.println("a nota media da sala, para " + totalAluno +" alunos, foi de " + mediaNota);
+        System.out.println("A nota media da sala, para " + totalAluno +" alunos, foi de " + mediaNota);
         }
     }
     

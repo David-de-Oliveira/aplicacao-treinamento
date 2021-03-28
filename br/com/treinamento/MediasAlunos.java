@@ -19,7 +19,7 @@ public class MediasAlunos {
             totalNota += notaAluno;
             totalAluno++;
         }
-
+        entrada.close();
         mediaNota = totalNota / totalAluno;
         System.out.println("a nota media da sala, para " + totalAluno +" alunos, foi de " + mediaNota);
     }
